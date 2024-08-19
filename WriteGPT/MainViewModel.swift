@@ -17,7 +17,7 @@ enum Mode: String, CaseIterable, Identifiable {
     case selections = "Use selections"
     case freeform = "Freeform"
     case tasks = "Specific tasks"
-    case extras = "Extras"
+    case images = "Images"
     
     var id: Self { self }
 }
@@ -78,8 +78,8 @@ class MainViewModel: ObservableObject {
             generateTaskPrompt()
         case .selections:
             generateSelectionsPrompt()
-        case .extras:
-            runExtrasPrompt()
+        case .images:
+            runImagesPrompt()
             return
         }
         
@@ -90,7 +90,7 @@ class MainViewModel: ObservableObject {
         }
     }
     
-    func runExtrasPrompt() {
+    func runImagesPrompt() {
         Task { @MainActor in
             isLoading = true
             await runImagePrompt()
@@ -151,7 +151,7 @@ class MainViewModel: ObservableObject {
         guard !promptText.isEmpty else { return }
         
         do {
-            generatedText += try await openAiHelper.runImagePrompt(prompt: promptText)
+            generatedText = try await openAiHelper.runImagePrompt(prompt: promptText)
         } catch {
         }
     }

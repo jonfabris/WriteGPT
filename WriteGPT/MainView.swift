@@ -21,7 +21,7 @@ struct MainView: View {
                     Spacer().frame(height: 12)
                     Text("Prompt - prompt sent to chatGpt")
                     TextEditor(text: $viewModel.promptText)
-                        .disabled(viewModel.selectedMode != .freeform && viewModel.selectedMode != .extras)
+                        .disabled(viewModel.selectedMode != .freeform && viewModel.selectedMode != .images)
                 }
                 Spacer().frame(width: 12)
                 VStack {
@@ -44,7 +44,7 @@ struct MainView: View {
                         .scaleEffect(0.8, anchor: .center)
                     }
                     .frame(height: 16)
-                    if viewModel.selectedMode == .extras {
+                    if viewModel.selectedMode == .images {
                         if viewModel.generatedText.contains("http"),
                            let url = URL(string: viewModel.generatedText) {
                             TextEditor(text: $viewModel.generatedText)
@@ -74,7 +74,7 @@ struct MainView: View {
                 selectionsView
             case .tasks:
                 tasksView
-            case .extras:
+            case .images:
                 extrasView
             }
         }
