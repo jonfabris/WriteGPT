@@ -16,7 +16,6 @@
 		A1CD69C12C6CE59E001382E2 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1CD69C02C6CE59E001382E2 /* Extensions.swift */; };
 		A1FD1CCC2C6BAA0E00D130E2 /* WriteGPTApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1FD1CCB2C6BAA0E00D130E2 /* WriteGPTApp.swift */; };
 		A1FD1CD02C6BAA0F00D130E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1FD1CCF2C6BAA0F00D130E2 /* Assets.xcassets */; };
-		A1FD1CD32C6BAA0F00D130E2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1FD1CD22C6BAA0F00D130E2 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,7 +28,6 @@
 		A1FD1CC82C6BAA0E00D130E2 /* WriteGPT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WriteGPT.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1FD1CCB2C6BAA0E00D130E2 /* WriteGPTApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WriteGPTApp.swift; sourceTree = "<group>"; };
 		A1FD1CCF2C6BAA0F00D130E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		A1FD1CD22C6BAA0F00D130E2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A1FD1CD42C6BAA0F00D130E2 /* WriteGPT.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WriteGPT.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -71,19 +69,10 @@
 				A1FD1CCB2C6BAA0E00D130E2 /* WriteGPTApp.swift */,
 				A1FD1CCF2C6BAA0F00D130E2 /* Assets.xcassets */,
 				A1FD1CD42C6BAA0F00D130E2 /* WriteGPT.entitlements */,
-				A1FD1CD12C6BAA0F00D130E2 /* Preview Content */,
 				A1CD69BB2C6BABF0001382E2 /* BundledApiKeyService.swift */,
 				A1CD69C02C6CE59E001382E2 /* Extensions.swift */,
 			);
 			path = WriteGPT;
-			sourceTree = "<group>";
-		};
-		A1FD1CD12C6BAA0F00D130E2 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				A1FD1CD22C6BAA0F00D130E2 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,7 +140,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				A1CD69BA2C6BAB1A001382E2 /* APIKeys.plist in Resources */,
-				A1FD1CD32C6BAA0F00D130E2 /* Preview Assets.xcassets in Resources */,
 				A1FD1CD02C6BAA0F00D130E2 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
