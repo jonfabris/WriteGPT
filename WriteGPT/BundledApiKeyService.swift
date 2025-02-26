@@ -8,7 +8,7 @@
 import Foundation
 
 struct BundledApiKeyService {
-    static let fileName = "APIKeys"
+    static let fileName = "APIKeysSecret"
 
     struct ApiKeys: Codable {
         let ChatGptApiKey: String

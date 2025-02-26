@@ -10,7 +10,7 @@
 		A1CD69B62C6BAAC5001382E2 /* OpenAiHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1CD69B32C6BAAC5001382E2 /* OpenAiHelper.swift */; };
 		A1CD69B72C6BAAC5001382E2 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1CD69B42C6BAAC5001382E2 /* MainView.swift */; };
 		A1CD69B82C6BAAC5001382E2 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1CD69B52C6BAAC5001382E2 /* MainViewModel.swift */; };
-		A1CD69BA2C6BAB1A001382E2 /* APIKeys.plist in Resources */ = {isa = PBXBuildFile; fileRef = A1CD69B92C6BAB1A001382E2 /* APIKeys.plist */; };
+		A1CD69BA2C6BAB1A001382E2 /* APIKeysSecret.plist in Resources */ = {isa = PBXBuildFile; fileRef = A1CD69B92C6BAB1A001382E2 /* APIKeysSecret.plist */; };
 		A1CD69BC2C6BABF0001382E2 /* BundledApiKeyService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1CD69BB2C6BABF0001382E2 /* BundledApiKeyService.swift */; };
 		A1CD69BF2C6BB184001382E2 /* OpenAIKit in Frameworks */ = {isa = PBXBuildFile; productRef = A1CD69BE2C6BB184001382E2 /* OpenAIKit */; };
 		A1CD69C12C6CE59E001382E2 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1CD69C02C6CE59E001382E2 /* Extensions.swift */; };
@@ -22,7 +22,7 @@
 		A1CD69B32C6BAAC5001382E2 /* OpenAiHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpenAiHelper.swift; sourceTree = "<group>"; };
 		A1CD69B42C6BAAC5001382E2 /* MainView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		A1CD69B52C6BAAC5001382E2 /* MainViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
-		A1CD69B92C6BAB1A001382E2 /* APIKeys.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = APIKeys.plist; sourceTree = "<group>"; };
+		A1CD69B92C6BAB1A001382E2 /* APIKeysSecret.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = APIKeysSecret.plist; sourceTree = "<group>"; };
 		A1CD69BB2C6BABF0001382E2 /* BundledApiKeyService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BundledApiKeyService.swift; sourceTree = "<group>"; };
 		A1CD69C02C6CE59E001382E2 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		A1FD1CC82C6BAA0E00D130E2 /* WriteGPT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WriteGPT.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -65,7 +65,7 @@
 				A1CD69B42C6BAAC5001382E2 /* MainView.swift */,
 				A1CD69B52C6BAAC5001382E2 /* MainViewModel.swift */,
 				A1CD69B32C6BAAC5001382E2 /* OpenAiHelper.swift */,
-				A1CD69B92C6BAB1A001382E2 /* APIKeys.plist */,
+				A1CD69B92C6BAB1A001382E2 /* APIKeysSecret.plist */,
 				A1FD1CCB2C6BAA0E00D130E2 /* WriteGPTApp.swift */,
 				A1FD1CCF2C6BAA0F00D130E2 /* Assets.xcassets */,
 				A1FD1CD42C6BAA0F00D130E2 /* WriteGPT.entitlements */,
@@ -139,7 +139,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A1CD69BA2C6BAB1A001382E2 /* APIKeys.plist in Resources */,
+				A1CD69BA2C6BAB1A001382E2 /* APIKeysSecret.plist in Resources */,
 				A1FD1CD02C6BAA0F00D130E2 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
